@@ -156,6 +156,21 @@
   margin-bottom: 237px
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem
+}
+
 .mb-1 {
   margin-bottom: 0.25rem
 }
@@ -647,6 +662,10 @@
   font-family: Inter
 }
 
+.font-chrip {
+  font-family: sans
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem
@@ -806,4 +825,10 @@
 
 .peer:invalid ~ .peer-invalid\:invisible {
   visibility: hidden
+}
+
+@media (min-width: 768px) {
+  .md\:justify-center {
+    justify-content: center
+  }
 }
