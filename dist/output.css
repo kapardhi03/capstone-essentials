@@ -178,6 +178,11 @@
   margin-bottom: 2rem
 }
 
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem
+}
+
 .mb-0{
   margin-bottom: 0px
 }
@@ -374,8 +379,8 @@
   width: 3.5rem
 }
 
-.w-18{
-  width: 77px
+.w-16{
+  width: 4rem
 }
 
 .w-2\/4{
@@ -451,6 +456,16 @@
   flex-grow: 1
 }
 
+.border-spacing-y-0{
+  --tw-border-spacing-y: 0px;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y)
+}
+
+.border-spacing-y-0\.5{
+  --tw-border-spacing-y: 2px;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y)
+}
+
 .cursor-pointer{
   cursor: pointer
 }
@@ -461,10 +476,6 @@
 
 .scroll-mr-36{
   scroll-margin-right: 9rem
-}
-
-.flex-row{
-  flex-direction: row
 }
 
 .flex-col{
@@ -956,6 +967,11 @@
 .hover\:bg-neutral-200:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity))
+}
+
+.hover\:bg-neutral-500:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-neutral-800:hover{
