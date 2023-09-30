@@ -46,6 +46,7 @@ module.exports = {
         "45":"189.94",
         "70":"275px",
         "18":"77px",
+        "85":"355px",
       },
       fontFamily:{
         "px-regular":"Inter",
