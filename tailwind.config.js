@@ -8,6 +8,7 @@ module.exports = {
         "neutral-50":"#f9f9f9",
         "neutral-400":"#a2a2a2",
         "gray":"rgba(255,255,255,0.12)",
+        "neutral-1000":"rgba(0, 0, 0, 1)",
         "neutral-950":"#0a0a0a",
         "neutral-900":"#171717",
         "neutral-800":"#262626",
@@ -25,6 +26,7 @@ module.exports = {
         "twitter-blue":"#1d9bf0",
         "stroke":"#1d9bf0",
         "blhvr":"#1871CA",
+        "secondary":"rgba(255, 255, 255, 0.6)"
       },
       spacing:{
         "w-90":"20.875rem",
