@@ -2,66 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="../../dist/output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Login</title>
+    <link href="../../dist/output.css" rel="stylesheet"></link>
 </head>
-<body class="bg-black text-neutral-50 bg-neutral-1000 h-[calc(100dvh)] flex flex-col ">
-    <div class="flex px-4 py-3 h-11 w-96 justify-center items-center">
-        <img src="../../public/images/Symbols/login-100.svg" alt="100" class="mr-0.5">
-        <img src="../../public/images/Symbols/X.svg" alt="X" class="ml-0.5">
-    </div>
-
-
-    <section class="mt-48 mb-70 ">
-        <section class="flex   px-7   items-start gap-10 flex-col">
-            <div class="mx-7">
-                <div class="text-3xl  w-99 font-bold mb-3 flex">
-                    <h2>Happening now</h2>
-                </div>
-                <div class="font-[26px] font-\[\'Inter\'\] ">
-                    <h2>Join today</h2>
-                </div>
-            </div>
-
-
-
-            <!-- Create account -->
-            <section class=" px-6 py-6 ">
-                <a href="../Mobile/Login2.html">
-                <button class="bg-neutral-50 hover:bg-neutral-200 w-93 px-6 py-2 rounded-3xl shadow backdrop-blur-2xl disabled:bg-neutral-50 justify-center items-center
-            gap-2.5 inline-flex custom-button border-y-0 border-x-0">
-                    <div class=" h-5  text-center  text-black text-base font-bold font-\[\'Inter\'\] ">
-                        Create account
-                    </div>  
-                </button>
-            </a>
-            </section>
-            <section class="px-7">
-                <div class="flex items-center w-full">
-                    <div class="bg-neutral-700 border border-bottom-2 h-0.5 w-44 flex-grow"></div>
-                    <div class="mx-1 font-chrip">or</div>
-                    <div class=" w-44 bg-neutral-700 border-neutral-700 h-0.5"></div>
-                </div>
-            </section>
-            <div class="ml-7 mr-24">
-
-
-                <div class=" font-px-regular font-medium pb-5  text-xl leading-none">Already have an account?</div>
-
-                <!-- Signup -->
-                <section class="py-5 pr-6 justify-start">
-                    <button class="outline-current  border-stroke bg-black w-93 px-6 py-2 rounded-3xl   justify-center items-center
-    gap-2.5 inline-flex ">
-                        <div
-                            class="h-5 text-center justify-normal font-bold text-base break-words text-twitter-blue font-\[\'Inter\'\]">
-                            Sign in
-                        </div>
-                    </button>
-                </section>
-            </div>
-
+<body class="bg-neutral-1000 h-[calc(100dvh)] flex flex-col">
+    <header class="flex justify-center py-3 px-4" >
+        <img src="../../public//images/Symbols/login-frame-27180.png" class="w-12 h-auto">
+    </header>
+    <main class="flex flex-col px-7 justify-center items-center flex-grow text-neutral-50">
+        <section class="flex flex-col self-start">
+            <h2 class="text-3xl font-extrabold mb-3">Happening now</h2>
+            <h3 class="font-bold">Join today.</h3>
         </section>
-    </section>
+
+        <a href="./Login2.html" class="my-10 w-full decoration-neutral-50">
+            <button class=
+            "py-2 px-6 w-full h-9 bg-neutral-50 hover:bg-neutral-200 
+            font-bold text-center text-black flex justify-center items-center 
+            rounded-full gap-2.5 shadow-md backdrop-blur-xl disabled:opacity-50
+            ">
+            Create account
+            </button>
+        </a>
+
+        <div class="flex items-center w-full">
+            <div class="flex-grow border border-b border-neutral-700"></div>
+            <div class="flex-grow-0 mx-1">or</div>
+            <div class="flex-grow border border-b border-neutral-700"></div>
+        </div>
+
+        <div class="self-start mt-10">
+            Already have an account?
+        </div>
+
+        <button class=
+            "py-2 px-6 mt-5 w-full h-9 bg-inherit border border-sign-up-border
+            font-bold text-center text-twitter-blue flex justify-center items-center 
+            rounded-full gap-2.5 shadow-md backdrop-blur-xl
+            ">
+            Sign in
+        </button>
+    </main>
 </body>
 </html>
