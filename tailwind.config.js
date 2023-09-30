@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -40,7 +41,9 @@ module.exports = {
         "99":"367px",
         "93":"371px",
         "0.25":"1px",
-        "45":"189.94"
+        "45":"189.94",
+        "70":"275px",
+        "18":"77px",
       },
       fontFamily:{
         "px-regular":"Inter",
