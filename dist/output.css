@@ -104,6 +104,10 @@
   visibility: hidden
 }
 
+.fixed{
+  position: fixed
+}
+
 .absolute{
   position: absolute
 }
@@ -114,6 +118,14 @@
 
 .bottom-0{
   bottom: 0px
+}
+
+.bottom-16{
+  bottom: 4rem
+}
+
+.right-0{
+  right: 0px
 }
 
 .m-1{
@@ -196,6 +208,16 @@
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem
+}
+
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto
 }
 
 .mb-0{
@@ -394,6 +416,14 @@
   margin-right: 2.5rem
 }
 
+.mt-0{
+  margin-top: 0px
+}
+
+.mt-0\.5{
+  margin-top: 2px
+}
+
 .flex{
   display: flex
 }
@@ -571,6 +601,35 @@
   width: 97%
 }
 
+.w-\[93\%\]{
+  width: 93%
+}
+
+.w-\[94\%\]{
+  width: 94%
+}
+
+.w-\[91\%\]{
+  width: 91%
+}
+
+.w-3{
+  width: 0.75rem
+}
+
+.w-3\.5{
+  width: 0.875rem
+}
+
+.w-4{
+  width: 1rem
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content
+}
+
 .max-w-\[300px\]{
   max-width: 300px
 }
@@ -669,6 +728,14 @@
   justify-content: space-around
 }
 
+.justify-evenly{
+  justify-content: space-evenly
+}
+
+.justify-stretch{
+  justify-content: stretch
+}
+
 .justify-items-end{
   justify-items: end
 }
@@ -695,6 +762,10 @@
 
 .gap-5{
   gap: 1.25rem
+}
+
+.gap-1{
+  gap: 0.25rem
 }
 
 .self-start{
@@ -737,6 +808,10 @@
   border-bottom-width: 2px
 }
 
+.border-t{
+  border-top-width: 1px
+}
+
 .border-none{
   border-style: none
 }
@@ -759,6 +834,11 @@
 .border-twitter-blue{
   --tw-border-opacity: 1;
   border-color: rgb(29 155 240 / var(--tw-border-opacity))
+}
+
+.border-neutral-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity))
 }
 
 .border-b-neutral-700{
@@ -827,6 +907,14 @@
 
 .p-0{
   padding: 0px
+}
+
+.p-1{
+  padding: 0.25rem
+}
+
+.p-4{
+  padding: 1rem
 }
 
 .px-0{
@@ -982,6 +1070,14 @@
 
 .pl-4{
   padding-left: 1rem
+}
+
+.pr-1{
+  padding-right: 0.25rem
+}
+
+.pl-1{
+  padding-left: 0.25rem
 }
 
 .text-center{
