@@ -630,6 +630,14 @@
   width: fit-content
 }
 
+.w-\[calc\(100dvh\)\]{
+  width: calc(100dvh)
+}
+
+.w-\[110\%\]{
+  width: 110%
+}
+
 .max-w-\[300px\]{
   max-width: 300px
 }
