@@ -21,3 +21,16 @@ Figma Design - https://www.figma.com/file/w7wN1934wsRWZAMhPU0IEX/100x-microblogg
 Designs will be reviewed for visual appeal, layout sensibility, and responsive design principles.
 
 ---
+
+
+## Accessing Different Pages
+
+You can explore different pages of the project by adding `/src/(page_name)` to the base URL. For example, to visit the "Home" page, use the following URL:
+
+[https://kapardhi03.github.io/capstone-essentials/src/about](https://kapardhi03.github.io/capstone-essentials/src/HomePage/Home.html)
+
+Feel free to replace `(page_name)` with the specific names of the pages you want to access.
+
+## Deployed Site
+
+Visit the deployed site [here](https://kapardhi03.github.io/capstone-essentials/).
